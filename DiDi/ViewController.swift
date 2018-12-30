@@ -17,7 +17,12 @@ class ViewController: UIViewController {
 
     
     override func viewWillAppear(_ animated: Bool) {
-        <#code#>
+        var testVar: String
+        testVar="test"
+        let test2: String
+        test2 = testVar
+        print(test2)
+        
     }
 
 }
